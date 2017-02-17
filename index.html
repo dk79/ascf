@@ -1,0 +1,36 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<header>
+<img src="images/aslogo.png" class="resize" />
+</header>
+<div class="sign-up-box">
+<body>
+  <form class='demo-form' action="/signup/" method='post'>
+      <h1>Sign Up</h1>
+  <section>
+    <fieldset name="sign-up-info">
+      <h3>Contact info</h3>
+        <ul>
+          <li><label for="Email">Email</label></li>
+          <li><input placeholder='foo@bar.com' type="email" name='email' id='email' /></li>
+
+          <li><label for="password">Password</label></li>
+          <li><input placeholder='1234passw0rd' type="password" name='password' id='password' /></li>
+        </ul>
+    </fieldset>
+  </section>  
+  <section>
+    <button type='submit'>Sign Up</button>
+  </section>
+  <section>
+    <a href="/forgot-password/new" type='reset'>Forgot Password?</a href>
+  </section>
+  </form>
+</body>
+</div>
+<section class="login">
+  <text>Already have an account? <a href="/login">Log In</a></text>
+</section>
